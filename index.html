@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>
+            Google Lens vs MobileNet
+        </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+            
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+            <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+            <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body style = "text-align: center;">
+        <div class = "title">
+        <img src = "Google Lens.png" width = "100">
+        <img src = "Google Lens Title.jpg" width = "300">
+        <br><br>
+        <h1>VS</h1>
+        <br><br>
+        <button class = "btn btn-primary" id = "MobileNet_Logo">MobileNet</button>
+        </div>
+
+        <br><br>
+        <div class = "object">
+            <h5>Test-Image-</h5>
+            <img src = "Zebronics Mouse.png" width = "300">
+            <div class = "output_google_lens">
+                <h4>Output in Google Lens - <span id = "mouse_output"></span></h3>
+                    </div>
+                <div class = "output_mobilenet">
+                    <h4>Output in MobileNet - <span id = "mouse_output2"></span></h3>
+                </div>
+                <hr>
+                <h2>Result:</h2>
+        </div>
+        <br><br>
+ <div class = "object">
+     <h5>Test-Image-</h5>
+     <img src = "table.png" width = "300">
+     <div class = "output_google_lens">
+         <h4>Output in Google Lens - <span id = "table_output"></span></h4>
+     </div>
+     <div class = "output_mobilenet">
+         <h4>Output in MobileNet - <span id = "table_output2"></span></h4>
+     </div>
+     <hr>
+     <h2>Result:</h2>
+ </div>
+ <br>
+        <div class = "object">
+            <h5>Test-Image-</h5>
+            <img src = "Iphone 13.png" width = "300">
+            <div class = "output_google_lens">
+                <h4>Output in Google Lens - <span id = "Iphone_output"></span></h4>
+            </div>
+            <div class = "output_mobilenet">
+            <h4>Output in MobileNet - <span id = "Iphone_output2"></span></h4>
+        </div>
+    </body>
+</html>
